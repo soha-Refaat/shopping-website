@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Shoping cart | Creat Product bage </title>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-rtl.css">
+   <link rel="stylesheet" href="css/creatProduct.css">
+   
+</head>
+<body>
+
+    <header>
+        <div class="container">
+         <div class="header-cont">
+             <a href="index.html" class="brand">
+                 Create Products
+             </a>
+             <nav >
+                 <ul id="links">
+                     <li><a href="login.html">Sign In</a></li>
+                     <li><a href="register.html">Sign Up</a></li>
+                 </ul>
+                 <ul id="user-info">
+                    <li id="en-lang">EN</li>
+                    <li id="ar-lang">AR</li>
+                    <li><a href="#" id="user"></a></li>
+                    <li><a href="favorate.html">Favorite</a></li>
+                    <li class="shoppingCart">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span class="padge"> </span>
+                        <div class="cartsProduct">
+                           <div></div>
+                            <a href="cardProduc.html"> View all products</a>
+                        </div>
+                    </li>
+                    <li><a href="#" id="log-out">LogOut</a></li>
+                 </ul>
+             </nav>
+         </div>
+        </div>
+     </header>
+     <section class="creat-prosucts-page">
+        <div class="container">
+        
+            <form action="" id="creat-form">
+                <input type="file" id="upload-img">
+                <input type="text" placeholder="Name" id="product-name">
+                <input type="text" placeholder="Description" id="product-description">
+                <select name="" id="product-size">
+                    <option value=""  hidden>Select Size</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+                <input type="submit" value="Create">
+            </form>
+        </div>
+        <!-- <a href="createProduct.html" class="create-product"><i class="fa fa-plus" aria-hidden="true"></i></a> -->
+        <!-- <a href="createProduct.html" class="create-product"><i class="fa fa-plus" aria-hidden="true"></i></a> -->
+     </section>
+     <script src="js/langDir.js"></script>
+     <script src="js/user.js"></script>
+     <script src="js/data.js"></script>
+     <script src="js/cartMenu.js"></script>
+     <script src="js/createProduct.js"></script>
+ 
+     
+    </body>
+    </html>

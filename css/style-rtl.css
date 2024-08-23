@@ -1,0 +1,15 @@
+[dir="rtl"] .product{
+    float: right;
+}
+[dir="rtl"] .product-dilter{
+    float: left;
+}
+[dir="rtl"] .create-product{
+    float: left;
+}
+[dir="rtl"] .proItem-action{
+    text-align: left;
+}
+[dir="rtl"] .add-cart{
+    margin-right: auto;
+}

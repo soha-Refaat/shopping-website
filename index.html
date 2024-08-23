@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping cart | Home bage </title>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-rtl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   
+</head>
+<body>
+
+    <header>
+        <div class="container">
+         <div class="header-cont">
+             <a href="index.html" class="brand">
+                 Shopping Cart
+             </a>
+             <nav >
+                 <ul id="links">
+                     <li><a href="login.html">Sign In</a></li>
+                     <li><a href="register.html">Sign Up</a></li>
+                 </ul>
+                 <ul id="user-info">
+                    <li id="en-lang">EN</li>
+                    <li id="ar-lang">AR</li>
+                    <li><a href="#" id="user"></a></li>
+                    <li><a href="favorate.html">Favorite</a></li>
+                    <li><a href="myProduct.html">My Products</a></li>
+                    <li class="shoppingCart">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span class="padge"> </span>
+                        <div class="cartsProduct">
+                           <div></div>
+                            <a href="cardProduc.html"> View all products</a>
+                        </div>
+                    </li>
+                    <li><a href="#" id="log-out">LogOut</a></li>
+                 </ul>
+             </nav>
+         </div>
+        </div>
+     </header>
+     <section class="home">
+        <div class="container">
+            <input id="search" type="text" placeholder="Search by Name">
+            <div class="product">
+            <div class="product-item">
+                <img src="img/img1.jpeg" alt="image" class="proItem-img">
+                <div class="proItem-desc">
+                    <h2>HeadPhone Item</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>Size: Large</span>
+                </div>
+                <div class="proItem-action">
+                    <button class="add-cart" onclick="checkLogedUser()">Add To Cart</button>
+                    <!-- <i class="fa fa-shopping-cart" aria-hidden="true"></i> -->
+                    <i class="favorite far fa-heart"></i>
+                </div>
+            </div>
+            </div>
+            <div class="product-dilter">
+                <h2>Filter By Size:</h2>
+                <select name="" id="size-filter">
+                    <option value="" hidden>Filter By Size</option>
+                    <option value="All">All</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+            </div>
+          
+        </div>
+        <a href="createProduct.html" class="create-product"><i class="fa fa-plus" aria-hidden="true"></i></a>
+     </section>
+     <script src="js/langDir.js"></script>
+     <script src="js/user.js"></script>
+     <script src="js/data.js"></script>
+     <script src="js/cartMenu.js"></script>
+     <script src="js/script.js"></script>
+     
+    </body>
+    </html>
